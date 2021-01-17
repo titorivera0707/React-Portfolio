@@ -1,0 +1,8 @@
+.container {
+    float: left;
+    color: teal;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 85%;
+    height: 100%;
+}
