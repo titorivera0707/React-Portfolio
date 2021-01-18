@@ -4,6 +4,7 @@ import First from "../components/images/calendar.png"
 import Second from "../components/images/weather.png"
 import Third from "../components/images/Quarantine.png"
 import Fourth from "../components/images/scheduler.png"
+import Fifth from "../components/images/Googlebook.png"
 
 function Portfolio() {
     return(
@@ -38,6 +39,21 @@ function Portfolio() {
                 <a class="github" target="_blank" href="https://github.com/titorivera0707/Work-Day-Scheduler">Github Repository!</a>
                 </div>
             </div>
+
+            <div id="portfolio">
+                <div class="col-md-5" id="margin">
+                <p>Google Books</p>
+                <a class="brdclr" target="_blank" href="https://infinite-citadel-85782.herokuapp.com/"><img class="rounded float-left img-fluid" src={Fifth} alt="Google Book"/></a>
+                <a class="github" target="_blank" href="https://github.com/titorivera0707/GoogleBook">Github Repository!</a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5" id="margin">
+                <p>Work Day Scheduler</p>
+                <a class="brdclr" target="_blank" href="https://titorivera0707.github.io/Work-Day-Scheduler/"><img class="rounded float-left img-fluid" src={Fourth} alt="Workday Scheduler"/></a>
+                <a class="github" target="_blank" href="https://github.com/titorivera0707/Work-Day-Scheduler">Github Repository!</a>
+                </div>
+            </div>
+
 
         </div>
     </div>
