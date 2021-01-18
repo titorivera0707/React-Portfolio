@@ -1,0 +1,90 @@
+.github {
+    background-color: lightgray;
+    color: black;
+    padding:3px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+  
+  .rounded {
+    border: 1px solid black;
+  }
+  
+  .stripe { 
+    border: 1px solid lightgray; 
+    width: 100%; 
+    margin: auto; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+  }
+  
+  .heading {
+    margin-left: 20px;
+    color: black;
+    font-size: 50px;
+    display: inline;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .container {
+    color: teal;
+    margin: auto;
+    margin-top: 25px;
+    width: auto;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .space {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  #portfolio {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #margin {
+    margin-bottom: 10px;
+    color: black;
+  }
+  .portfolio-container {
+    font-family: 'Montserrat', sans-serif;
+        
+  }
+  
+  .git {
+    font-size:0px;
+    color: rgb(68, 68, 68);
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  #right {
+    float: right;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #portfolio {
+        background-color: white;
+        width: 80%;
+        text-align: center;
+    }
+    }

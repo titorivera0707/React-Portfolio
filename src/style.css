@@ -6,3 +6,11 @@
     width: 85%;
     height: 100%;
 }
+
+body {
+    background: url('./components/images/19742.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

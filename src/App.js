@@ -5,10 +5,12 @@ import Portfolio from "./pages/Portfolio";
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import "./style.css"
+import "./components/images/19742.jpg"
 
 function App() {
   return (
-    <Router>
+    <Router className="body">
+        <body>
         <Nav />
         <div className="container">
         <Switch>
@@ -18,6 +20,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
+      </body>
     </Router>
   );
 }

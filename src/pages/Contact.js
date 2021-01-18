@@ -1,4 +1,5 @@
 import React from "react"
+import "./Contact.css"
 
 function Contact() {
     return(
@@ -7,7 +8,7 @@ function Contact() {
 
         <div class="row"> 
 
-        <div class="col-md-6" id="contact">
+        <div class="col-md-8" id="contact">
 
             <h1>Contact</h1>
             <p class="black">Lets get in contact and work together!</p>
@@ -31,11 +32,6 @@ function Contact() {
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         
-        </div>
-        
-        <div class="col-md-6">
-
-
         </div>
         </div>
     </div>
