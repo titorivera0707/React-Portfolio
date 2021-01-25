@@ -39,7 +39,7 @@
     margin-top: 25px;
     width: auto;
     width: 100%;
-    height: 500px;
+    height: auto;
   }
   
   .space {
@@ -84,7 +84,11 @@
   @media only screen and (max-width: 768px) {
     #portfolio {
         background-color: white;
-        width: 80%;
+        width: auto;
         text-align: center;
+    }
+
+    .container {
+
     }
     }

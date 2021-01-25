@@ -6,6 +6,10 @@
     margin-bottom: 5%;
 }
 
+.box {
+    border: 5px solid black;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -15,7 +19,6 @@
 }
 
 .container {
-    float: left;
     color: teal;
     margin-top: 50px;
     margin-left: 35px;

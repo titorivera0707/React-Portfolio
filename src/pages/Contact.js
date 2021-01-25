@@ -8,7 +8,7 @@ function Contact() {
 
         <div class="row"> 
 
-        <div class="col-md-8" id="contact">
+        <div class="col-md-8 box" id="contact">
 
             <h1>Contact</h1>
             <p class="black">Lets get in contact and work together!</p>
