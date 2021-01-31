@@ -1,6 +1,6 @@
 import React from "react"
-import "./Home.css"
-import Me from "../components/images/image14.jpeg"
+import "./style.css"
+import Me from "../../components/images/image14.jpeg"
 
 function Home() {
     return(

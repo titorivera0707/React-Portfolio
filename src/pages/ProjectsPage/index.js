@@ -1,11 +1,11 @@
 import React from "react"
-import "./Portfolio.css"
-import First from "../components/images/calendar.png"
-import Second from "../components/images/weather.png"
-import Third from "../components/images/Quarantine.png"
-import Fourth from "../components/images/scheduler.png"
-import Fifth from "../components/images/Googlebook.png"
-import Projects from "../components/Projects"
+import "./style.css"
+import First from "../../components/images/calendar.png"
+import Second from "../../components/images/weather.png"
+import Third from "../../components/images/Quarantine.png"
+import Fourth from "../../components/images/scheduler.png"
+import Fifth from "../../components/images/Googlebook.png"
+import Projects from "../../components/Projects"
 
 function Portfolio() {
     return(
