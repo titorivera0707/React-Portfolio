@@ -13,13 +13,12 @@ function App() {
     <Router>
         <Nav />
         <div className="containerr">
-        <Switch>
-          <Route exact path="/" component={Initial} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Projects} />
-        </Switch>
-        <Footer />
+          <Switch>
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" component={Projects} />
+          </Switch>
+          <Footer />
       </div>
     </Router>
   );
