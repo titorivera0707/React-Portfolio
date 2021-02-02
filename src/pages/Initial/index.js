@@ -8,14 +8,8 @@ function Initial() {
     }
 
     return(
-      <div className="newback">
-        <button href="/home"type="submit"onClick={()=>clickButton()}>
-      Click Me!
-      </button>
         <Particles
         style={{ position: "absolute" }}
-        height="95%"
-        width="95%"
         params={{
           particles: {
             color: {
@@ -34,9 +28,9 @@ function Initial() {
             }
           }
         }}
-      />
-
-      </div>
+        >
+Hello
+        </Particles>
     )
 }
 

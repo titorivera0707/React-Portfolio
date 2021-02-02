@@ -1,10 +1,13 @@
 import React from "react"
 import "./style.css"
 import Me from "../../components/images/image14.jpeg"
+import Nav from "../../components/Nav"
+import Footer from "../../components/Footer"
 
 function Home() {
     return(
     <div>
+        <Nav />
         <div className="container">
 
             <div className="row"> 
@@ -32,6 +35,7 @@ function Home() {
             </div>
 
         </div>
+        <Footer />
     </div>  
     )
 }
