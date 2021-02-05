@@ -1,0 +1,16 @@
+.newDiv {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+}
+
+.buttonInit {
+    text-align: center;
+    z-index: 100;
+}
+
+.tsparticles {
+    z-index: 1;
+}
