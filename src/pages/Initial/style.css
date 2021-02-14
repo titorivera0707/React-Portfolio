@@ -1,6 +1,7 @@
 .newDiv {
     margin: auto;
     width: 100%;
+    top: 30%;
     text-align: center;
     z-index: 100;
     position: absolute;
