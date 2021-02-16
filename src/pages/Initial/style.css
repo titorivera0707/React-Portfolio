@@ -9,9 +9,16 @@
 
 .buttonInit {
     text-align: center;
+
     z-index: 100;
+    background-color: #403d39;
 }
 
 .tsparticles {
     z-index: 1;
+}
+
+.navbar-brand {
+    text-align: center;
+    color: #eb5e28;
 }

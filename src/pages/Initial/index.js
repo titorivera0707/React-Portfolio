@@ -33,10 +33,11 @@ function Initial() {
         }}
         />
           <div className="newDiv">
-            <h1 className="newTop">Hello World</h1>
+            <h1 className="newTop">Tito Rivera</h1>
+            <h4>Web Developer based in Los Angeles</h4>
             <button className="buttonInit">
             <Link className="navbar-brand" to="/home">
-          Home
+          Portfolio
         </Link>
             </button>
           </div>
