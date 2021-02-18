@@ -36,7 +36,7 @@ function Initial() {
             <h1 className="newTop">Tito Rivera</h1>
             <h4>Web Developer based in Los Angeles</h4>
             <button className="buttonInit">
-            <Link className="navbar-brand" to="/home">
+            <Link className="navbar-brand" to="/portfolio">
           Portfolio
         </Link>
             </button>

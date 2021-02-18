@@ -8,11 +8,13 @@ import Fifth from "../../components/images/Googlebook.png"
 import Projects from "../../components/Projects"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
+import Carousell from "../../components/Carousel"
 
 function Portfolio() {
     return(
         <div>
             <Nav />
+            <Carousell />
             <div class="container box portfolio-container">
                 <div class="row">
 
