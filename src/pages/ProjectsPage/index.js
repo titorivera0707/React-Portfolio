@@ -9,12 +9,17 @@ import Projects from "../../components/Projects"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
 import Carousell from "../../components/Carousel"
+import Early1 from "../../components/images/Early1.png"
+import Early2 from "../../components/images/Early2.png"
+import Early3 from "../../components/images/Early3.png"
 
 function Portfolio() {
     return(
         <div>
             <Nav />
-            <Carousell />
+            <Carousell FirstP={Early1} D1="How does this work" P1="It works like this I think"
+            SecondP={Early2}
+            ThirdP={Early3}/>
             <div class="container box portfolio-container">
                 <div class="row">
 
