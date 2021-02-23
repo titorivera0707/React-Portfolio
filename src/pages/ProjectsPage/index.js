@@ -17,10 +17,28 @@ function Portfolio() {
     return(
         <div>
             <Nav />
+            <div className="picture">
+            <h1 className="center">Project Early Bird</h1>
+            <p className="center">Created using: React, CSS, Bootstrap</p>
             <Carousell FirstP={Early1} D1="How does this work" P1="It works like this I think"
             SecondP={Early2}
             ThirdP={Early3}/>
-            <div class="container box portfolio-container">
+            <div class="row">
+            <div className="col-8">
+            <h4>Project early bird was created for those of us who are always made late by the little things in life. We always have big things saved in our calendar about things that will be happening during our week or even month, but we always forget to take into account how much time we need to make it on time for those certain events. Most calendars don't take into account things ike brushing your teeth, getting dressed, eating breakfast. All those few minutes wasted doing necessary time is time that we sometimes don't take into account and thus we are made late. Early bird solves this issue by allowing the user to input things in their daily calendar by 1 or 5 minute increments rather than by hour as most daily planners do.</h4>
+            </div>
+            <div className="col-4">
+                
+            </div>
+
+            </div>
+            </div>
+            <h1>Project Two</h1>
+
+            <h1>Project Three</h1>
+
+            <h1>Project Four</h1>
+            {/* <div class="container box portfolio-container">
                 <div class="row">
 
                     <div id="portfolio">
@@ -36,7 +54,7 @@ function Portfolio() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </div>
     )

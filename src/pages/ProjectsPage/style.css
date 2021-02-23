@@ -27,10 +27,7 @@
   }
   
   .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
   }
   
   .container {
@@ -75,6 +72,10 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+  }
+
+  .picture {
+    scroll-snap-align: start;
   }
   
   #right {
